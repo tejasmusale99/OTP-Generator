@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    background-color: rgb(60, 60, 56);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+   
+}
+h1{
+    text-transform:uppercase ;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 2px rgb(192, 171, 171);
+    font-family: sans-serif;
+  
+}
+.container{
+    background-color: rgb(42, 37, 37);
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 4px  rgba(231, 231, 231, 0.8);
+    border-radius: 8px;
+    width: 420px;   
+    height: 270px;
+}
+.OTP{
+   font-size: 20px;
+   font-family: cursive;
+   text-align: center;
+   color: blanchedalmond;
+   
+}
+.btn{
+    margin-top:35px ;
+    padding: 10px;
+    background-color: rgb(222, 222, 222);
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+}
+.btn:hover{
+    background-color: rgb(189, 182, 173);
+    transform-style: preserve-3d;
+}
+footer{
+    color: white;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
